@@ -45,11 +45,11 @@ public class AudioProjectMain{
 
             int audioPort = 50005;
 
-            // STEP 1: NUMBER OF DEVICES
-            System.out.print("🔢 Enter number of devices: ");
+            // I WILL TYPE HERE THE NUMBER OF DEVICES
+            System.out.print(" Enter number of devices: ");
             int n = Integer.parseInt(scanner.nextLine());
 
-            // STEP 2: ENTER IPS
+            // IT IS USED INPUT IP ADDRESS
             for (int i = 0; i < n; i++) {
                 System.out.print(" Enter IP for device " + (i + 1) + ": ");
                 String ip = scanner.nextLine();
